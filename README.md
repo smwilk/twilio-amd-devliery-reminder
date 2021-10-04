@@ -29,7 +29,7 @@ NGROK_URL=XXXXX
     "id": 123456,
     "name": "Customer 1",
     "phoneNumber": "{insert your phone number here}",
-    "deliveryTime": "17-19"
+    "deliveryTime": "9-11"
   }
 ]
 ```
