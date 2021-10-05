@@ -65,7 +65,7 @@ app.post("/amd-callback", function (req, res) {
       .catch(err => console.log(err))
   } else  {
     // When an answering machine answers the call
-    const smsReminder = `This is Twilio Logistics. We'll deliver your package ${deliveryId} between ${earliestDeliveryTime} and ${latestDeliveryTime} o'clock today. Goodbye!`
+    const smsReminder = `This is Twilio Logistics. We'll deliver your package ${deliveryId} between ${earliestDeliveryTime} and ${latestDeliveryTime} o'clock today.`
     console.log("Call picked up by machine")
     // Update ongoing call and leave delivery reminder message on answering machine.
     client.calls(req.body.CallSid)
