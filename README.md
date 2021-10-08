@@ -1,5 +1,7 @@
 This is a sample delivery reminder system made with [Twilio's AMD](https://www.twilio.com/docs/voice/answering-machine-detection).
 
+See the blog post [Building a Delivery Reminder System with Twilio’s Answering Machine Detection (AMD) and Node.js](https://www.twilio.com/blog/amd-node-delivery-reminder) on Twilio Blog for detailed instructions.
+
 1. Install dependencies
 
 ```bash
